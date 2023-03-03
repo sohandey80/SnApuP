@@ -21,6 +21,8 @@ function draw()
 {
     image(video,0,0,640,480);
     tint(tint_color);
+    stroke(255, 204, 0);
+strokeWeight(4);
 
 }
 function take_snapshot()
