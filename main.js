@@ -21,9 +21,11 @@ function draw()
 {
     image(video,0,0,640,480);
     tint(tint_color);
-    stroke(255, 204, 0);
+   // Grayscale integer value
 strokeWeight(4);
-
+stroke(51);
+rect(20, 20, 60, 60);
+describe('White rect at center with dark charcoal grey outline.');
 }
 function take_snapshot()
 {
